@@ -86,10 +86,6 @@
           transform: translateX(-50%) translateY(-15px);
 }
 
-.header-bar-mobile:focus {
-  outline: none;
-}
-
 #toggler {
   display: none;
 }
@@ -215,6 +211,8 @@
 
 html, body {
   margin: 0;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 li {
