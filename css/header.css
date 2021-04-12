@@ -86,6 +86,10 @@
           transform: translateX(-50%) translateY(-15px);
 }
 
+.header-bar-mobile:focus {
+  outline: none;
+}
+
 #toggler {
   display: none;
 }
@@ -127,6 +131,10 @@
   display: block;
   position: relative;
   top: 16px;
+}
+
+.toggle-label .burger-contain:focus {
+  outline: none;
 }
 
 .toggle-label .burger-contain span {

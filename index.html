@@ -12,6 +12,9 @@
         $('#backTop').click(function(){
             $('html,body').animate({scrollTop: 0}, 300);
         });
+        $('.header').on("swipe",function(){
+            $('#toggler').prop("checked", false);
+        })
     });
 </script>
 <body>
