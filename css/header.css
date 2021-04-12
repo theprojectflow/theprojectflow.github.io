@@ -133,6 +133,10 @@
   outline: none;
 }
 
+.toggle-label .burger-contain:active {
+  background-color: rgba(0, 0, 0, 0);
+}
+
 .toggle-label .burger-contain span {
   display: block;
   height: 2px;
