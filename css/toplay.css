@@ -244,7 +244,7 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url("../image/down.jpg");
+  background-image: url("../image/mid.jpg");
   background-repeat: no-repeat;
   background-position: left bottom;
   background-size: cover;
@@ -253,80 +253,29 @@ img {
           box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
 }
 
-.header-bar ul li:nth-child(4) {
+.header-bar ul li:nth-child(3) {
   color: #323232;
 }
 
-.header-bar ul li:nth-child(4)::after {
+.header-bar ul li:nth-child(3)::after {
   width: 100%;
 }
 
 .second-sec, .third-sec {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  text-align: center;
 }
 
 .second-sec span, .third-sec span {
-  padding: 50px 0;
   font-size: 20px;
   font-weight: 900;
   letter-spacing: 3px;
+  line-height: 120px;
   color: #323232;
 }
 
-.race {
-  width: 100%;
-  background-color: #ded8d4;
-  padding: 50px 0;
+.second-sec img, .third-sec img {
   -webkit-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
           box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
-}
-
-.race ul {
-  margin-left: 5%;
-}
-
-.race ul li {
-  font-size: 20px;
-  margin-bottom: 30px;
-  font-weight: 700;
-}
-
-iframe {
-  width: 1920px;
-  height: 1080px;
-}
-
-@media screen and (max-width: 1921px) {
-  iframe {
-    width: 1280px;
-    height: 720px;
-  }
-}
-
-@media screen and (max-width: 1281px) {
-  iframe {
-    width: 560px;
-    height: 315px;
-  }
-}
-
-@media screen and (max-width: 561px) {
-  iframe {
-    width: 320px;
-    height: 180px;
-  }
 }
 
 .bottom {
@@ -372,8 +321,5 @@ iframe {
     -webkit-transform: scale(0.8);
             transform: scale(0.8);
   }
-  .race li {
-    font-size: 16px;
-  }
 }
-/*# sourceMappingURL=results.css.map */
+/*# sourceMappingURL=toplay.css.map */
