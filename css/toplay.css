@@ -321,5 +321,8 @@ img {
     -webkit-transform: scale(0.8);
             transform: scale(0.8);
   }
+  .first-sec {
+    height: 400px;
+  }
 }
 /*# sourceMappingURL=toplay.css.map */
