@@ -249,7 +249,7 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url("../image/mid.jpg");
+  background-image: url("../image/up.jpg");
   background-repeat: no-repeat;
   background-position: left bottom;
   background-size: cover;
@@ -258,19 +258,19 @@ img {
           box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
 }
 
-.header-bar ul li:nth-child(3) {
+.header-bar ul li:nth-child(2) {
   color: #323232;
 }
 
-.header-bar ul li:nth-child(3)::after {
+.header-bar ul li:nth-child(2)::after {
   width: 100%;
 }
 
-.second-sec, .third-sec {
+.second-sec {
   text-align: center;
 }
 
-.second-sec span, .third-sec span {
+.second-sec span {
   font-size: 20px;
   font-weight: 900;
   letter-spacing: 3px;
@@ -278,7 +278,7 @@ img {
   color: #323232;
 }
 
-.second-sec img, .third-sec img {
+.second-sec img {
   -webkit-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
           box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
 }
@@ -330,4 +330,4 @@ img {
     height: 400px;
   }
 }
-/*# sourceMappingURL=toplay.css.map */
+/*# sourceMappingURL=abouts.css.map */
