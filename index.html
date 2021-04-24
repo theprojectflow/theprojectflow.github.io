@@ -14,7 +14,8 @@
         });
         $(document).scroll(function(){
             $('#toggler').prop("checked", false);
-        })
+        });
+        $("video")[0].play();
     });
 </script>
 <body>
@@ -53,7 +54,7 @@
                 </ul>
             </div>
         </div>
-        <video preload="preload" autoplay="autoplay" muted="muted" src="video/LOGO.mp4"></video>
+        <video preload="preload" muted="muted" src="video/LOGO.mp4"></video>
     </section>
     <section class="second-sec">
         <img src="image/Mockup.jpg">

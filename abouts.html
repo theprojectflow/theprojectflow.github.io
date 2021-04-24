@@ -14,7 +14,9 @@
         });
         $(document).scroll(function(){
             $('#toggler').prop("checked", false);
-        })
+        });
+        $("video")[0].play();
+        $('video').attr('loop','loop');
     });
 </script>
 <body>
