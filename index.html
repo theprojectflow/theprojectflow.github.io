@@ -16,6 +16,7 @@
             $('#toggler').prop("checked", false);
         });
         $("video")[0].play();
+        $('video').attr('loop','loop');
     });
 </script>
 <body>
@@ -54,7 +55,7 @@
                 </ul>
             </div>
         </div>
-        <video preload="preload" muted="muted" playsinline="playsinline" webkit-playsinline="webkit-playsinline" src="video/LOGO.mp4"></video>
+        <video preload="preload" muted="muted" loop="loop" playsinline="playsinline" webkit-playsinline="webkit-playsinline" src="video/LOGO.mp4"></video>
     </section>
     <section class="second-sec">
         <img src="image/Mockup.jpg">
