@@ -1,0 +1,11 @@
+html, body {
+  margin: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+  background-color: #c8d9d2;
+}
+
+div {
+  width: 95vw;
+}
+/*# sourceMappingURL=ans.css.map */
