@@ -12,6 +12,13 @@
         $('#backTop').click(function(){
             $('html,body').animate({scrollTop: 0}, 300);
         });
+        $(window).scroll(function() {
+            if ( $(this).scrollTop() > 150 ){
+                $('#backTop').fadeIn(100);
+            } else {
+                $('#backTop').fadeOut(100);
+            }
+	}).scroll();
         $(document).scroll(function(){
             $('#toggler').prop("checked", false);
         });
@@ -73,7 +80,8 @@
         <img src="image/0000.jpg">
     </section>
     <div class="bottom">
-        <button id="backTop">回首頁</button>
+        <span>Copyright &copy 2021 theprojectflow.</span>
     </div>
+    <button id="backTop">&#9650</button>
 </body>
 </html>
