@@ -360,10 +360,6 @@ iframe {
   }
 }
 
-.bottom {
-  height: 150px;
-}
-
 @media screen and (max-width: 944px) {
   .race ul li {
     font-size: 16px;

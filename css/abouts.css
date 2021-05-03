@@ -309,10 +309,6 @@ img {
           box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
 }
 
-.bottom {
-  height: 150px;
-}
-
 @media screen and (max-width: 944px) {
   .first-sec {
     height: auto;
