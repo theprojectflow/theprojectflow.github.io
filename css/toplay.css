@@ -292,11 +292,11 @@ img {
   width: 100%;
 }
 
-.second-sec, .third-sec {
+.second-sec, .third-sec, .forth-sec {
   text-align: center;
 }
 
-.second-sec span, .third-sec span {
+.second-sec span, .third-sec span, .forth-sec span {
   font-size: 20px;
   font-weight: 900;
   letter-spacing: 3px;
@@ -304,9 +304,52 @@ img {
   color: #323232;
 }
 
-.second-sec img, .third-sec img {
+.second-sec img, .third-sec img, .forth-sec img {
   -webkit-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
           box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.forth-sec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+iframe {
+  width: 1920px;
+  height: 1080px;
+}
+
+@media screen and (max-width: 1921px) {
+  iframe {
+    width: 1280px;
+    height: 720px;
+  }
+}
+
+@media screen and (max-width: 1281px) {
+  iframe {
+    width: 560px;
+    height: 315px;
+  }
+}
+
+@media screen and (max-width: 561px) {
+  iframe {
+    width: 320px;
+    height: 180px;
+  }
 }
 
 @media screen and (max-width: 944px) {

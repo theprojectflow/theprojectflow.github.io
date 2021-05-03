@@ -24,7 +24,7 @@ img
         color: #323232
         &::after
             width: 100%
-.second-sec,.third-sec
+.second-sec,.third-sec,.forth-sec
     text-align: center
     span
         font-size: 20px
@@ -34,8 +34,24 @@ img
         color: #323232
     img
         box-shadow: 0 10px 10px rgba(0,0,0,0.3)
-
-
+.forth-sec
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    margin-bottom: 20px
+iframe
+    width: 1920px
+    height: 1080px
+    @media screen and ( max-width: 1921px )
+        width: 1280px
+        height: 720px
+    @media screen and ( max-width: 1281px )
+        width: 560px
+        height: 315px
+    @media screen and ( max-width: 561px )
+        width: 320px
+        height: 180px
 @media screen and ( max-width: 944px )
     .first-sec
         height: auto
