@@ -309,7 +309,7 @@ img {
           box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
 }
 
-.forth-sec {
+.second-sec {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -323,6 +323,9 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.forth-sec {
   margin-bottom: 20px;
 }
 
